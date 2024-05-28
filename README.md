@@ -17,6 +17,8 @@ It will save to `{pcap_name}_ja3.json` and `{pcap_name}_http_ja4.json` as well a
 
 `python specter.py --capture-dir ./captures/nuclei`
 
+![img.png](img.png)
+
 # Automated capturing
 
 `specter` will attempt to run any `.dockerfile`s that are in the `docker_files` directory. There is a naming scheme: 
