@@ -12,7 +12,7 @@ RUN mkdir /scripts
 COPY ./src/jarm_randomizer.py /scripts/
 COPY ./src/ecc_randomizer.py /scripts/
 COPY ./src/capture_packets.py /scripts/
-COPY ./src/honeypot.py /scripts/
+COPY src/capture_server.py /scripts/
 COPY ./cmds/build.sh /scripts/
 COPY ./cmds/entrypoint.sh /scripts/
 
@@ -35,4 +35,4 @@ EXPOSE 443/tcp
 # Set the entrypoint to map local IPv4 to local.example.com for Nginx proxy_pass. This avoids IPs in request headers.
 ENTRYPOINT ["/scripts/entrypoint.sh"]
 
-CMD cron;/build/nginx/objs/nginx -c /etc/nginx/nginx.conf;python3 /scripts/honeypot.py & python3 /scripts/capture_packets.py
+CMD cron;/build/nginx/objs/nginx -c /etc/nginx/nginx.conf;python3 /scripts/capture_server.py & python3 /scripts/capture_packets.py
