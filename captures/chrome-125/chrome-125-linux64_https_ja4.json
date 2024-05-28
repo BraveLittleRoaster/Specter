@@ -1,0 +1,58 @@
+[
+    {
+        "stream": 0,
+        "src": "172.17.0.1",
+        "dst": "172.17.0.2",
+        "srcport": "55978",
+        "dstport": "443",
+        "client_ttl": "64",
+        "server_ttl": "64",
+        "JA4L-S": "5_64",
+        "JA4L-C": "48_64",
+        "domain": "www.example.com",
+        "JA4": "t13d1516h2_8daaf6152771_02713d6af862",
+        "JA4S": "t130200_1302_a56c5b993250"
+    },
+    {
+        "stream": 1,
+        "src": "172.17.0.1",
+        "dst": "172.17.0.2",
+        "srcport": "55982",
+        "dstport": "443",
+        "client_ttl": "64",
+        "server_ttl": "64",
+        "JA4L-S": "4_64",
+        "JA4L-C": "51_64",
+        "domain": "www.example.com",
+        "JA4": "t13d1516h2_8daaf6152771_02713d6af862",
+        "JA4S": "t130200_1302_a56c5b993250"
+    },
+    {
+        "stream": 2,
+        "src": "172.17.0.1",
+        "dst": "172.17.0.2",
+        "srcport": "62930",
+        "dstport": "443",
+        "client_ttl": "64",
+        "server_ttl": "64",
+        "JA4L-S": "8_64",
+        "JA4L-C": "88_64",
+        "domain": "www.example.com",
+        "JA4": "t13d1516h2_8daaf6152771_02713d6af862",
+        "JA4S": "t130200_1302_a56c5b993250"
+    },
+    {
+        "stream": 3,
+        "src": "172.17.0.1",
+        "dst": "172.17.0.2",
+        "srcport": "62942",
+        "dstport": "443",
+        "client_ttl": "64",
+        "server_ttl": "64",
+        "JA4L-S": "5_64",
+        "JA4L-C": "48_64",
+        "domain": "www.example.com",
+        "JA4": "t13d1516h2_8daaf6152771_02713d6af862",
+        "JA4S": "t130200_1302_a56c5b993250"
+    }
+]

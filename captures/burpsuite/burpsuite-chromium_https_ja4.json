@@ -1,0 +1,30 @@
+[
+    {
+        "stream": 0,
+        "src": "172.17.0.1",
+        "dst": "172.17.0.2",
+        "srcport": "59538",
+        "dstport": "443",
+        "client_ttl": "64",
+        "server_ttl": "64",
+        "JA4L-S": "5_64",
+        "JA4L-C": "900_64",
+        "domain": "www.example.com",
+        "JA4": "t13d4913h2_bd868743f55c_aac333855136",
+        "JA4S": "t130200_1302_a56c5b993250"
+    },
+    {
+        "stream": 1,
+        "src": "172.17.0.1",
+        "dst": "172.17.0.2",
+        "srcport": "59542",
+        "dstport": "443",
+        "client_ttl": "64",
+        "server_ttl": "64",
+        "JA4L-S": "9_64",
+        "JA4L-C": "1741_64",
+        "domain": "www.example.com",
+        "JA4": "t13d491300_bd868743f55c_3a411efc3e5a",
+        "JA4S": "t130300_1302_0ee26285a86f"
+    }
+]
