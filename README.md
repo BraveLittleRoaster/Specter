@@ -10,6 +10,15 @@ cat /etc/hosts
 
 This is to use the default values passed in via `cmds/start.sh`. 
 
+Then build all the necessary files:
+
+```
+docker build -f ja4.dockerfile -t ja4-analysis .
+docker build -f ja3.dockerfile -t ja3-analysis .
+docker build -f https-logserver.dockerfile -t https-logserver . 
+```
+
+
 # Usage
 
 Run `specter` against a directory that contains the unencrypted and encrypted pcaps from the `https-logserver` to extract JA3 and JA4+ fingerprints from the captures. 

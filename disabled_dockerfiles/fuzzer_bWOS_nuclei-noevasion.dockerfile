@@ -12,7 +12,7 @@ RUN go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 RUN nuclei -update & nuclei -ut
 
 # Define environment variables
-ENV APP_NAME "nuclei-evasion"
+ENV APP_NAME "nuclei-noevasion"
 # Note the --fuzzer option is looking for slip-ups in response encodings and tests 29 different cases.
 # To generate a large amount of payloads run the command like below.
 ENV CMDLINE_EXEC 'nuclei -duc -u ${TARGET_URL} -t ${TARGET_SCAN}'
