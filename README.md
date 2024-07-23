@@ -10,9 +10,10 @@ cat /etc/hosts
 
 This is to use the default values passed in via `cmds/start.sh`. 
 
-Then build all the necessary files:
+Then build all the necessary files and install dependencies:
 
 ```
+pip install -r requirements.txt
 docker build -f ja4.dockerfile -t ja4-analysis .
 docker build -f ja3.dockerfile -t ja3-analysis .
 docker build -f https-logserver.dockerfile -t https-logserver . 
