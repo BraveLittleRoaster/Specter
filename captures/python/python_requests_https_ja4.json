@@ -1,0 +1,30 @@
+[
+    {
+        "stream": 0,
+        "src": "192.168.65.1",
+        "dst": "172.17.0.2",
+        "srcport": "42474",
+        "dstport": "443",
+        "client_ttl": "63",
+        "server_ttl": "64",
+        "JA4L-S": "23_64",
+        "JA4L-C": "119_63",
+        "domain": "localhost",
+        "JA4": "t13d1812h1_85036bcba153_6bebaf5329ac",
+        "JA4S": "t130200_1302_a56c5b993250"
+    },
+    {
+        "stream": 1,
+        "src": "192.168.65.1",
+        "dst": "172.17.0.2",
+        "srcport": "46576",
+        "dstport": "443",
+        "client_ttl": "63",
+        "server_ttl": "64",
+        "JA4L-S": "10_64",
+        "JA4L-C": "5810_63",
+        "domain": "localhost",
+        "JA4": "t13d1812h1_85036bcba153_6bebaf5329ac",
+        "JA4S": "t130200_1302_a56c5b993250"
+    }
+]

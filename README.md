@@ -88,7 +88,7 @@ usage: manual-specter.py [-h] [--output-dir OUT_DIR] --capture-name CAP_NAME
 
 options:
   -h, --help            show this help message and exit
-  --output-dir OUT_DIR  Output pcaps and access log to this directory.
+  --output-dir OUT_DIR  Output pcaps and access log to this directory. Use the full/absolute path.
   --capture-name CAP_NAME
                         Naming scheme for captures.
 
